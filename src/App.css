@@ -1,0 +1,329 @@
+
+header{
+  height: 12vh;
+  position: sticky;
+  top: 0;
+  z-index: 1 ;
+  background-color: #fff;
+  
+}
+.navbar-nav :hover{
+    border-bottom: 2px solid red;
+
+}
+ .navbar-brand h4{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  margin-bottom: 0%;
+  padding-bottom: 0%;
+}
+.container .brand-tagline{
+  font-size: small;
+  background-color: rgb(254, 54, 54);
+}
+.collapse button{
+  margin-left: 30px;
+  padding-left: 12px;
+}
+
+
+.bg{
+  background-image:url(Hotels/accets/pexels-boonkong-boonpeng-442952-1134176.jpg) ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 50px;
+
+}
+.bg{
+  height: 100vh;
+}
+.bang{
+  animation-name: bounce;
+  animation-duration: 20s;
+  animation-iteration-count: 10;
+  animation-duration: 3s;
+
+}
+.row p{
+  font-size: small;
+}
+.Section-Content{
+  text-align: center;
+}
+.text-black p {
+  color: #7c7c7c;
+}
+.section-head 
+p{
+  line-height: 27px;
+  margin-bottom: 24px;
+  font-size: large;
+  color: #656565;
+  padding-left: 10px;
+  
+}
+.m-b5{
+  letter-spacing: 2px;
+  padding-bottom: 10px;
+}
+
+.bgi img{
+  width: 380px;
+  height: 480px;
+  background-color: rgb(15, 15, 15);
+  border-radius: 10px;
+}
+.row.equal-wraper{
+  text-align: center;
+  justify-content: center;
+  padding-left: 15px;
+}
+.iron{
+  width: 120px;
+  padding: 12px;
+  margin: 10px;
+  box-sizing: border-box;
+  border: 3px solid rgb(36, 36, 37);
+  border-radius: 10px;
+
+}
+.spider{
+  background-color: #fffefe;
+  width: 120px;
+  padding: 12px;
+  margin: 10px;
+  box-sizing: border-box;
+  border: 3px solid rgb(36, 36, 37);
+  border-radius: 10px;
+
+}
+.captian{
+  background-color: #fdfafa;
+  width: 120px;
+  margin: 10px;
+  box-sizing: border-box;
+  border: 3px solid rgb(36, 36, 37);
+  border-radius: 10px;
+}
+.method{
+  text-align: center;
+}
+.bullet{
+  width:160px;
+
+}
+.card{
+  height: 180;
+  margin-bottom: 30px;
+  text-align: center;
+  box-shadow: 10px 10px 10px lightgray;
+  transition-duration: 1;
+}
+.card:hover{
+  box-shadow: 5px 5px 10px rgb(63, 50, 50);
+  border-radius: 10px;
+}
+.card img{
+  height: 250px;
+}
+.card-footer button{
+  background-color: green;
+}
+
+ .m-b5{
+  text-align: center; 
+  position: relative; 
+}
+
+.m-b5::after {
+  content: "";
+  position: absolute;
+  left: 50%; /* Center the line */
+  transform: translateX(-50%); 
+  bottom: -5px;
+  width: 10%; 
+  height: 5px;
+  background-color: green; 
+}
+
+
+.sector1{
+ background-color: black;
+ background-image: url(Hotels/accets/pexels-pixabay-260922.jpg);
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+ color: aliceblue;
+}
+.sector1 button{
+  background-color: transparent;
+  border: 1px solid #fef2f2; 
+  color: #d3c4c4; 
+  width: 280px;
+  height: 100px;
+}
+.sector1 p{
+  font-size: medium;
+}
+.no-dots,.made{
+  list-style: none; 
+  padding: 1PX; 
+  margin: 0; 
+  line-height: 25px;
+}
+.dotl{
+  font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+/* ourhotels */
+.dom{
+  animation-name: zoomIn;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-duration: alternate;
+}
+.bhai{
+  height: 305px;
+}
+
+/*about*/
+.beera{
+  animation-name: fadeIn;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  background-color: #f8f5f5;
+}
+
+.manager img{
+  width: 300px;
+  height: 500px;
+  border-radius: 20px;
+  background-color: #7c7c7c;
+
+}
+/* contactus */
+.blufter{
+  background-color: rgb(248, 138, 75);
+}
+.blufter p{
+  font-size:x-small ;
+  letter-spacing: 1px;
+}
+.combo p{
+  font-size: medium;
+  font-family: 'Pacifico', cursive;
+}
+.bluee input{
+  font-family: 'Pacifico', cursive;
+  width: 300px;
+  margin: 5px;
+}
+#creata{
+  height: 100px;
+  text-align: start;
+}
+footer{
+  text-align: center;
+}
+
+/* login */
+.form-control{
+  border-radius: 10px;
+}
+
+/* dashboard */
+
+aside{
+  padding: 20px;
+  border-right: 2px solid gray;
+}
+aside button{
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom:10px;
+}
+aside button:hover{
+  animation-name: pulse;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-duration: alternate;
+  background-color: #aba3a3;
+
+
+}
+/* welcome */
+.welcomes p{
+ font-size: large;
+}
+.exit button{
+  font-size: large;
+  font-weight: 400;
+}
+
+/* contactus */
+.combo1{
+  animation-name: pulse;
+  animation-duration: 3s;
+  animation-iteration-count: 2;
+  animation-duration: alternate;
+
+}
+.combo1 span{
+  animation-name: flip;
+  animation-duration: 3s;
+  animation-iteration-count: 2;
+  animation-duration: alternate;
+}
+/* services */
+.priya{
+  animation-name:backInDown;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-duration: alternate;
+}
+/* addrooms */
+.aboy:hover{
+  background-color: rgb(70, 6, 131);
+  transition-duration : 3s;
+  transform: rotatex(360deg);
+  border-radius: 10px;
+}
+.theboy{
+  font-family: SourceSansProRegular ,Sans-serif;
+  font-size:25px;
+  color: rgb(4, 4, 95);
+}
+p.card-text{
+  font-size: 17px;
+  font-weight: 20;
+}
+.sudheer{
+  padding: 20px;
+  border-bottom: 2px solid gray;
+}
+.girl{
+  border-radius: 6px;
+  color: red;
+  border-color: red;
+}
+ /* viewroom */
+ .krish{
+  animation-name:backInDown;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-duration: alternate;
+ }
+
+ /* Ourhotels */
+
+ .scroll-container {
+  padding-bottom: 15px;
+  overflow-x: auto;
+}
+
+.scroll-container::-webkit-scrollbar {
+  display: none;
+}
