@@ -10,7 +10,7 @@ const OurHotels = () => {
   const [showModal, setShowModal] = useState(false);
 
   useEffect(() => {
-    axios.get("http://localhost:5000/Viewroom")
+    axios.get("https://hotel-server-m85l.onrender.com/Viewroom")
       .then((res) => setHotels(res.data))
       .catch((err) => console.log(err));
   }, []);

@@ -9,7 +9,7 @@ const AddRooms= () => {
     const [image, setimage]=useState("")
     const submitHandler = (e) =>{
       e.preventDefault();
-      axios.post(`http://localhost:5000/Viewroom`,{type,room,occupancy,price_per_day,image})
+      axios.post(`https://hotel-server-m85l.onrender.com/Viewroom`,{type,room,occupancy,price_per_day,image})
       .then((res) =>alert("updated Ourhotel @saipriyainn"))
       .catch((err) =>console.log(err) )
       console.log(type,room,occupancy,price_per_day,image);

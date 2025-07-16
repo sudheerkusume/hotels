@@ -13,7 +13,7 @@ const HotelSingle = () => {
   const [selectedImage, setSelectedImage] = useState(null);
   const [selectedUnit, setSelectedUnit] = useState(1);
   useEffect(() => {
-    axios.get(`http://localhost:5000/${id}`)
+    axios.get(`https://hotel-server-m85l.onrender.com/${id}`)
       .then((res) => 
 {
           setProduct(res.data);

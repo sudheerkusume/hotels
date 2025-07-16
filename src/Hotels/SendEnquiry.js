@@ -9,7 +9,7 @@ const SendEnquiry = () => {
   const submitHandler = (e) => {
     e.preventDefault();
 
-    axios.post(`http://localhost:5000/enquiries`, { name, mobile, email })
+    axios.post(`https://hotel-server-m85l.onrender.com/Enquiries`, { name, mobile, email })
       .then((res) => {
         alert("Your Enquiry Sent ✅");
         setName("");

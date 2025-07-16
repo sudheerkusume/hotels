@@ -11,18 +11,18 @@ const ViewEnquiries = () => {
     
     
     useEffect(() => {
-        axios.get(`http://localhost:5000/enquiries`)
+        axios.get(`https://hotel-server-m85l.onrender.com/Enquiries`)
         .then((res) =>setEnq(res.data))
         .catch((err) => console.log(err));
     })
 
     const deleteEnq = (enqId) =>{
-        axios.delete(`http://localhost:5000/enquiries/${enqId}`)
+        axios.delete(`https://hotel-server-m85l.onrender.com/Enquiries/${enqId}`)
         .then(() =>alert(`Move to Bin`))
         .catch((err) => console.log(err))
     }
    const getonerecord =(enqId)=>{
-        axios.get(`http://localhost:5000/enquiries/${enqId}`)
+        axios.get(`https://hotel-server-m85l.onrender.com/Enquiries/${enqId}`)
         .then((res)=>{
             setName(res.data.name)
             setmobile(res.data.mobile)
@@ -33,7 +33,7 @@ const ViewEnquiries = () => {
    }
    const updateEnq =(e) =>{
      e.preventDefault();
-     axios.put(`http://localhost:5000/enquiries/${_id}`,{_id,name,mobile,email})
+     axios.put(`https://hotel-server-m85l.onrender.com/Enquiries/${_id}`,{_id,name,mobile,email})
      .then((res)=>alert("you made it"))
      .catch((err)=>console.log(err))
    }

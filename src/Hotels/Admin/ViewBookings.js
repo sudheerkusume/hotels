@@ -6,7 +6,7 @@ const ViewBooking = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/Order")
+      .get("https://hotel-server-m85l.onrender.com/Order")
       .then((res) => {
         setOrders(res.data);
       })

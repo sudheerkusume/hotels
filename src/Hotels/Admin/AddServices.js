@@ -8,7 +8,7 @@ const SendEnquiry = () => {
 
     const submitHandler = (e) =>{
       e.preventDefault();
-      axios.post(`http://localhost:5000/roomservices`,{name,description,text})
+      axios.post(`https://hotel-server-m85l.onrender.com/roomservices`,{name,description,text})
       .then((res) =>alert("updated Ourhotel @saipriyainn"))
       .catch((err) =>console.log(err) )
 

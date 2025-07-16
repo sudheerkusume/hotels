@@ -11,7 +11,7 @@ const HotelCart = () => {
       return;
     }
 
-    axios.get("http://localhost:5000/mycart", {
+    axios.get("https://hotel-server-m85l.onrender.com/mycart", {
       headers: {
         "x-token": token,
       }

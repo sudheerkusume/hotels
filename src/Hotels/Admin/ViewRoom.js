@@ -35,7 +35,7 @@ const ViewRoom = () => {
    }
    const updateEnq =(e) =>{
      e.preventDefault();
-     axios.put(`http://localhost:5000/Viewroom/${_id}`,{_id,type,room,occupancy,price_per_day})
+     axios.put(`https://hotel-server-m85l.onrender.com/Viewroom/${_id}`,{_id,type,room,occupancy,price_per_day})
      .then((res)=>alert("you made it"))
      .catch((err)=>console.log(err))
    }

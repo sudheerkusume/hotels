@@ -18,12 +18,12 @@ const HotelCart = () => {
   useEffect(() => {
     const fetchUserAndCart = async () => {
       try {
-        const resUser = await axios.get("http://localhost:5000/fuser", {
+        const resUser = await axios.get("https://hotel-server-m85l.onrender.com/fuser", {
           headers: { Authorization: `Bearer ${token}` },
         });
         setFuser(resUser.data);
 
-        const resCart = await axios.get("http://localhost:5000/mycart", {
+        const resCart = await axios.get("https://hotel-server-m85l.onrender.com/mycart", {
           headers: { Authorization: `Bearer ${token}` },
         });
 
@@ -50,7 +50,7 @@ const HotelCart = () => {
 
   const deleteItem = async (itemId) => {
     try {
-      await axios.delete(`http://localhost:5000/deletecart/${itemId}`, {
+      await axios.delete(`https://hotel-server-m85l.onrender.com/deletecart/${itemId}`, {
         headers: { Authorization: `Bearer ${token}` },
       });
       setCartItems(cartItems.filter((item) => item._id !== itemId));
@@ -61,7 +61,7 @@ const HotelCart = () => {
 
   const confirmBooking = async () => {
     try {
-      const res = await axios.post("http://localhost:5000/confirmbooking", {}, {
+      const res = await axios.post("https://hotel-server-m85l.onrender.com/confirmbooking", {}, {
         headers: { Authorization: `Bearer ${token}` },
       });
 

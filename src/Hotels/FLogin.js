@@ -17,7 +17,7 @@ const FLogin = () => {
     e.preventDefault();
 
     try {
-      const res = await axios.post('http://localhost:5000/Ulogin', details);
+      const res = await axios.post('https://hotel-server-m85l.onrender.com/Ulogin', details);
       const token = res.data.token;
 
       localStorage.setItem('token', token);

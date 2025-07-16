@@ -18,7 +18,7 @@ const BookingReview = () => {
   // Fetch room details by ID
   useEffect(() => {
     axios
-      .get(`http://localhost:5000/Viewroom/${id}`)
+      .get(`https://hotel-server-m85l.onrender.com/Viewroom/${id}`)
       .then((res) => setRoom(res.data))
       .catch((err) => console.error("Error loading room", err));
   }, [id]);
@@ -64,7 +64,7 @@ const BookingReview = () => {
     };
 
     try {
-      await axios.post("http://localhost:5000/addtocart", payload, {
+      await axios.post("https://hotel-server-m85l.onrender.com/addtocart", payload, {
         headers: {
           "x-token": token
         }

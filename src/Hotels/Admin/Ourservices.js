@@ -13,17 +13,17 @@ const Ourservices = () => {
     const [_id, SetId] = useState("")
 
     useEffect(()=>{
-        axios.get(`http://localhost:5000/roomservices`)
+        axios.get(`https://hotel-server-m85l.onrender.com/roomservices`)
         .then((res)=>SetEnq(res.data))
         .catch((err) => console.log(err))
     })
     const deleteEnq= (enqid)=>{
-        axios.delete(`http://localhost:5000/roomservices/${enqid}`)
+        axios.delete(`https://hotel-server-m85l.onrender.com/${enqid}`)
         .then((res)=>alert(`movie to bin..`))
         .catch((err) =>console.log(err))
     }
     const getonerecord=(enqid)=>{
-        axios.get(`http://localhost:5000/roomservices/${enqid}`)
+        axios.get(`https://hotel-server-m85l.onrender.com/${enqid}`)
         .then((res)=>{
             Setservices(res.data.name)
             Setdescription(res.data.description)
@@ -34,7 +34,7 @@ const Ourservices = () => {
     }
     const UpdateEnq =(e)=>{
         e.preventDefault();
-        axios.put(`http://localhost:5000/roomservices/${_id}`,{_id,services,description,text})
+        axios.put(`https://hotel-server-m85l.onrender.com/${_id}`,{_id,services,description,text})
         .then((res)=>alert(`Posting`))
         .catch((err)=>console.log(err))
     }

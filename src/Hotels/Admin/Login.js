@@ -16,7 +16,7 @@ const Login = () => {
     const submithandler=(e)=>{
         e.preventDefault();
         console.log(details);
-axios.post(`http://localhost:5000/adminlogin`, details)
+axios.post(`https://hotel-server-m85l.onrender.com/adminlogin`, details)
   .then((res) => {
     setToken(res.data.token);
     localStorage.setItem("token", res.data.token);

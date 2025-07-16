@@ -4,7 +4,7 @@ import React, { useEffect, useState } from 'react'
 const Services = () => {
   const[products,setproducts]= useState([])
   useEffect(() =>{
-    axios.get("http://localhost:5000/roomservices")
+    axios.get("https://hotel-server-m85l.onrender.com/roomservices")
     .then((res)=>setproducts(res.data))
     .catch((err)=>console.log(err))
   })

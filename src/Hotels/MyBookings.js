@@ -9,7 +9,7 @@ const MyBookings = () => {
   useEffect(() => {
     const fetchBookings = async () => {
       try {
-        const res = await axios.get("http://localhost:5000/mybookings", {
+        const res = await axios.get("https://hotel-server-m85l.onrender.com/mybookings", {
           headers: { Authorization: `Bearer ${token}` },
         });
         setBookings(res.data);

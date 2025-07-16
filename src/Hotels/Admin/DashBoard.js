@@ -16,7 +16,7 @@ const DashBoard = () => {
    const [user, setUser] = useState({})
   const  navigate = useNavigate();
   useEffect(() => {
-  axios.get("http://localhost:5000/dashboard", {
+  axios.get("https://hotel-server-m85l.onrender.com/dashboard", {
     headers: {
       "x-token": token
     }
