@@ -12,18 +12,18 @@ const ViewRoom = () => {
 
      
     useEffect(() => {
-        axios.get(`http://localhost:5000/Viewroom`)
+        axios.get(`https://hotel-server-m85l.onrender.com/Viewroom/Viewroom`)
         .then((res) =>setEnq(res.data))
         .catch((err) => console.log(err))
     })
 
     const deleteEnq = (enqId) =>{
-        axios.delete(`http://localhost:5000/Viewroom/${enqId}`)
+        axios.delete(`https://hotel-server-m85l.onrender.com/Viewroom/Viewroom/${enqId}`)
         .then(() =>alert(`Move to Bin`))
         .catch((err) => console.log(err))
     }
    const getonerecord =(enqId)=>{
-        axios.get(`http://localhost:5000/Viewroom/${enqId}`)
+        axios.get(`https://hotel-server-m85l.onrender.com/Viewroom/Viewroom/${enqId}`)
         .then((res)=>{
             settype(res.data.type)
             setroom(res.data.room)
