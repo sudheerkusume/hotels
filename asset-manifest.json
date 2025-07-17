@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.714667bf.css",
-    "main.js": "/static/js/main.b74278c6.js",
-    "static/media/pexels-boonkong-boonpeng-442952-1134176.jpg": "/static/media/pexels-boonkong-boonpeng-442952-1134176.b8b5bc71712132513e1d.jpg",
-    "static/media/boss3.JPG": "/static/media/boss3.f144ff1677331c9af464.JPG",
-    "static/media/pexels-pixabay-260922.jpg": "/static/media/pexels-pixabay-260922.ad43cd4fead0348d2557.jpg",
-    "static/media/card2.jpeg": "/static/media/card2.2015150bb349905d1352.jpeg",
-    "static/media/hotel1.webp": "/static/media/hotel1.c89c76c4a3b9aeabb046.webp",
-    "static/media/card1.jpeg": "/static/media/card1.abddc91845b0af9b9ac4.jpeg",
-    "index.html": "/index.html",
-    "main.714667bf.css.map": "/static/css/main.714667bf.css.map",
-    "main.b74278c6.js.map": "/static/js/main.b74278c6.js.map"
+    "main.css": "/hotels/static/css/main.1ce120b3.css",
+    "main.js": "/hotels/static/js/main.a7b2f6f0.js",
+    "static/media/pexels-boonkong-boonpeng-442952-1134176.jpg": "/hotels/static/media/pexels-boonkong-boonpeng-442952-1134176.b8b5bc71712132513e1d.jpg",
+    "static/media/boss3.JPG": "/hotels/static/media/boss3.f144ff1677331c9af464.JPG",
+    "static/media/pexels-pixabay-260922.jpg": "/hotels/static/media/pexels-pixabay-260922.ad43cd4fead0348d2557.jpg",
+    "static/media/card2.jpeg": "/hotels/static/media/card2.2015150bb349905d1352.jpeg",
+    "static/media/hotel1.webp": "/hotels/static/media/hotel1.c89c76c4a3b9aeabb046.webp",
+    "static/media/card1.jpeg": "/hotels/static/media/card1.abddc91845b0af9b9ac4.jpeg",
+    "index.html": "/hotels/index.html",
+    "main.1ce120b3.css.map": "/hotels/static/css/main.1ce120b3.css.map",
+    "main.a7b2f6f0.js.map": "/hotels/static/js/main.a7b2f6f0.js.map"
   },
   "entrypoints": [
-    "static/css/main.714667bf.css",
-    "static/js/main.b74278c6.js"
+    "static/css/main.1ce120b3.css",
+    "static/js/main.a7b2f6f0.js"
   ]
 }
